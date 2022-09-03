@@ -16,14 +16,14 @@ result = factorial(n)
 print('Factorial from the input number is:',result)
 
 
-# def is_int(str):
-#     try:
-#         int(str)
-#         return True
-#     except ValueError:
-#         return False
-# a = result
-# print('Is it an integer:',is_int(a))
+def is_int(str):
+    try:
+        int(str)
+        return True
+    except ValueError:
+        return False
+a = result
+print('Is it an integer:',is_int(a))
 
 if (result % 2) == 0:
 	print("This number is even".format(result))
