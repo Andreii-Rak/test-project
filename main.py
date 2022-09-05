@@ -38,3 +38,17 @@ my_array.append(result)
 my_array.append(result)
 print(my_array)
 
+import random
+random_numbers = random.randint(1,10)
+print("Random number:", random_numbers)
+
+
+def custom_randomizer(result, random_numbers):
+	return result * random_numbers
+print(custom_randomizer(result, random_numbers))
+
+my_array[0]= custom_randomizer(result, random_numbers)
+my_array[1]= custom_randomizer(result, random_numbers)
+my_array[2]= custom_randomizer(result, random_numbers)
+my_array[3]= custom_randomizer(result, random_numbers)
+print(my_array)
