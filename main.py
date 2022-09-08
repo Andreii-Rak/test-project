@@ -39,13 +39,13 @@ print(my_array)
 
 
 import random
-def rand():
-	return random.randint(1, 10)
+# def rand():
+# 	return random.randint(1, 10)
 
 my_array.clear()
 
 for a in range(4):
-	my_array.append(rand() * result)
+	my_array.append(random.randint(1, 10) * result)
 print(my_array)
 
 
