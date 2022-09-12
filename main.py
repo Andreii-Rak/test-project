@@ -41,9 +41,9 @@ import random_number
 
 my_array.clear()
 for a in range(4):
-	my_array.append(random_number.rand() * result)
+	my_array.append(random_number.custom_rand() * result)
 print(my_array)
 
 def random_mach():
-    return int(input("Number:")) * random_number.rand()
+    return int(input("Number:")) * random_number.custom_rand()
 print(random_mach())

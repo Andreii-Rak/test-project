@@ -1,3 +1,3 @@
 import random
-def rand():
+def custom_rand():
 	return random.randint(1, 10)
