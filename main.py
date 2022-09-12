@@ -37,16 +37,16 @@ my_array.append(result)
 my_array.append(result)
 print(my_array)
 
-
+import random_number
 import random
-def rand():
-	return random.randint(1, 10)
+# def rand():
+# 	return random.randint(1, 10)
 
 my_array.clear()
 for a in range(4):
-	my_array.append(rand() * result)
+	my_array.append(random_number.rand() * result)
 print(my_array)
 
-def random_multiplication():
-    return int(input("Number:")) * rand()
-print(random_multiplication())
+def random_mach():
+    return int(input("Number:")) * random_number.rand()
+print(random_mach())
