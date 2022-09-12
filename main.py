@@ -38,9 +38,6 @@ my_array.append(result)
 print(my_array)
 
 import random_number
-import random
-# def rand():
-# 	return random.randint(1, 10)
 
 my_array.clear()
 for a in range(4):
